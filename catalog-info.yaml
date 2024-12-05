@@ -1,0 +1,13 @@
+  apiVersion: backstage.io/v1alpha1
+  kind: Component
+  metadata:
+    name: flutter_sticky_header
+    description: Github repository for flutter_sticky_header
+    annotations:
+      google.com/cloudbuild-project-slug: ao-docs-tools
+      github.com/project-slug: AODocs-Dev/flutter_sticky_header
+      sonarqube.org/project-key: AODocs-Dev_flutter_sticky_header
+  spec:
+    type: service
+    lifecycle: production
+    owner: group:default/sre
